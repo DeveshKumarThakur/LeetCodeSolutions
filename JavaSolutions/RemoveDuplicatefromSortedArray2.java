@@ -5,6 +5,7 @@
 package LeetCodeSolutions.JavaSolutions;  
   
 public class RemoveDuplicatefromSortedArray2 {  
+    // I am checking number on index-2 place in array and if its not same then updating it to i 
     public int removeDuplicates(int[] nums) {  
         int index = 2;  
         for (int i = 2; i < nums.length; i++) {  
